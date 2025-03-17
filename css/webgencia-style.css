@@ -1,0 +1,36 @@
+/* LEGAL Desktop */
+.legal {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  font-size: 17px;
+  background-color: rgb(34, 57, 78);
+}
+
+.legal > .container > h2 {
+  margin-bottom: 30px;
+}
+
+.legal > .container > p > a {
+  color: white;
+}
+
+.legal > .container > h2, h3, p {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.text-legal {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 2000px) {
+  .legal {
+    padding-top: 150px;
+    padding-bottom: 50px;  
+  }
+}
